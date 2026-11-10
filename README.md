@@ -9,13 +9,17 @@
 
 # Behck merge_cz
 ## cytozip merge cz
+```shell
 reference cz: /anvil/projects/x-mcb130189/Wubin/Ref/mm10/mm10_with_chrL.allc.cz
 chrom size path: /anvil/projects/x-mcb130189/Wubin/Ref/mm10/mm10_ucsc.nochrM.sizes
 metadata path: /anvil/projects/x-mcb130189/Wubin/mouse_dev/clustering/5kb/annotations.tsv
 cz files: /anvil/scratch/x-wding2/mouse_dev/mapped/*/cz/*.cz
 merge into Subclass (from metadata), record time memory usage, and compare it with ALLCools.
+```
 
 ## ALLCools merge allc
+```shell
 ALLCools: https://github.com/DingWB/ALLCools
 documentation: https://github.com/lhqing/ALLCools
 allcools merge-allc --allc_paths your.allc.path --cpu ${n_jobs} --output_path '${outdir}/${bname}.allc.tsv.gz' --chrom_size_path '${chrom_size_path}'
+```
