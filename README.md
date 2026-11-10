@@ -10,6 +10,7 @@
 # Behck merge_cz
 ## cytozip merge cz
 ```shell
+create environment: conda env create -f m3c.yaml
 reference cz: /anvil/projects/x-mcb130189/Wubin/Ref/mm10/mm10_with_chrL.allc.cz
 chrom size path: /anvil/projects/x-mcb130189/Wubin/Ref/mm10/mm10_ucsc.nochrM.sizes
 metadata path: /anvil/projects/x-mcb130189/Wubin/mouse_dev/clustering/5kb/annotations.tsv
