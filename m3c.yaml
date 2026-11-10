@@ -1,0 +1,79 @@
+name: m3c
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - parallel
+  - jupyter
+  - snakemake
+  - pytables
+  - seaborn
+  - xarray=2023.6.0
+  - dask
+  - mamba
+  - natsort
+  - netCDF4
+  - networkx
+  - opentsne
+  - plotly
+  - pynndescent
+  - leidenalg
+  - anndata>=0.10.8
+  - fa2
+  - numpy #=1.26.4
+  - pandas=2.0.3
+  - fastcluster=1.2.6
+  - scanpy # 1.11.3
+  - scikit-learn=1.6.0
+  - statsmodels
+  - zarr # 2.18.2
+  - biopython
+  - pyBigWig
+  - pycirclize
+  - bedtools
+  - deeptools
+  - homer
+  - macs3
+  - gseapy
+  - htslib # for bgzip
+  - git
+  - ipython
+  - ipykernel
+  - fire
+  - tqdm
+  - papermill
+  - nbconvert-webpdf
+  - harmonypy
+  - xlsxwriter
+  - cytozip
+  - upsetplot
+  - adjusttext
+  - pydot
+  - imbalanced-learn
+  - louvain
+  - openpyxl
+  - graphviz
+  - treelib
+  - openjdk
+  - rpy2=3.5.11
+  - r-base=4.3.3
+  - r-matrix
+  - r-data.table
+  - r-stringr
+  - bioconductor-biocinstaller
+  - bioconductor-rhdf5
+  - bioconductor-geoquery
+  - pip:
+    - pysam==0.20.0
+    - pybedtools==0.9.1
+    - setuptools<81
+    - git+https://github.com/DingWB/ALLCools
+    - git+https://github.com/DingWB/cemba_data
+    - git+https://github.com/DingWB/PyComplexHeatmap
+    - git+https://github.com/DingWB/adataviz
+    - cairosvg
+    - jupyterlab_favorites
+    - fa2-modified
